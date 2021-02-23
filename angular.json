@@ -26,14 +26,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
+            "scripts": [
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/easing.js",
+              "src/assets/js/easyResponsiveTabs.js",
+              "src/assets/js/jquery-1.11.1.min.js",
+              "src/assets/js/jquery.mycart.js",
+              "src/assets/js/jquery.vide.min.js",
+              "src/assets/js/jquery.zoomtoo.js",
+              "src/assets/js/jstarbox.js",
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/move-top.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,13 +95,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
@@ -107,9 +108,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
