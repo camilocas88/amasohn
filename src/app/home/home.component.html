@@ -1,0 +1,28 @@
+<app-banner></app-banner>
+<app-carousel></app-carousel>
+<div class="product">
+  <div class="container">
+    <div class="spec">
+      <h3>Products</h3>
+      <div class="ser-t">
+        <b></b>
+        <span><i></i></span>
+        <b class="line"></b>
+      </div>
+    </div>
+    <app-product></app-product>
+  </div>
+</div>
+
+<app-modal id="custom-modal-1">
+  <h4>
+    Products available only in <b>{{ country }} </b>
+  </h4>
+  <br />
+  <button
+    class="btn btn-danger my-cart-btn my-cart-b"
+    (click)="closeModal('custom-modal-1')"
+  >
+    Close
+  </button>
+</app-modal>

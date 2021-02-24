@@ -34,11 +34,9 @@
               "src/assets/js/easyResponsiveTabs.js",
               "src/assets/js/jquery-1.11.1.min.js",
               "src/assets/js/jquery.mycart.js",
-              "src/assets/js/jquery.vide.min.js",
               "src/assets/js/jquery.zoomtoo.js",
               "src/assets/js/jstarbox.js",
-              "src/assets/js/modernizr.custom.js",
-              "src/assets/js/move-top.js"
+              "src/assets/js/modernizr.custom.js"
             ]
           },
           "configurations": {
